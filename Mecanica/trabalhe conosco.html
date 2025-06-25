@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhe Conosco - Oficina AutoMaster</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("IMG/fundo5.jpg");
+    }
+
+    header {
+      background-image: url("IMG/fundo5.jpg");
+     
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container 
+        {
+        max-width: 1000px;
+        margin:40px auto;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border-left: 5px solid rgb(255, 213, 0);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+      }
+
+    h1, h2 {
+      color:rgb(255, 213, 0);
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    .gallery img {
+      width: 32%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input {
+      padding: 10px;
+      margin-bottom: 15px;
+      border:rgb(255, 213, 0);
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #007BFF;
+      color:rgb(255, 213, 0);
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background-color:rgb(255, 213, 0);
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    p{
+        color:rgb(255, 213, 0);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Oficina AutoPro</h1>
+  <h2><p>Trabalhe conosco e cresça com a gente!</p></h2>
+</header>
+<p>
+<div class="container">
+    
+  <h2>Sobre Nossa Oficina</h2>
+  <p>Na AutoPro, valorizamos profissionais apaixonados por mecânica, atendimento de qualidade e trabalho em equipe. Se você busca um ambiente dinâmico e quer fazer parte do nosso time, envie seu currículo!</p>
+
+</p>
+  <h2>Nosso Espaço</h2>
+  <div class="gallery">
+    <img src="IMG/fachada3.png">
+    <img src="IMG/area de trabalho.jpg "> 
+    <img src="IMG/a nossa equipe.webp" >
+  </div>
+
+  <h2>Curriculo</h2>
+  <form action="curriculo enviado.html" method="post">
+    <input type="text" name="nome" placeholder="Seu nome completo" required>
+    <input type="email" name="email" placeholder="Seu e-mail" required>
+    <input type="tel" name="telefone" placeholder="Seu telefone" required>
+    <textarea name="mensagem" placeholder="Fale um pouco sobre sua experiência..." rows="5" required></textarea>
+    <input type = "submit" value = "Enviar curriculo">
+   
+  </form>
+ 
+</div>
+
+
+</body>
+</html>
